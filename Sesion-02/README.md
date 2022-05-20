@@ -73,7 +73,7 @@ Ahora puede comenzar a ejecutar la aplicación en su dispositivo móvil. Las sol
 
 #### <ins>Tema 4: Grabación de tráfico HTTPS</ins>
 
-JMeter cuenta con un elemento para realizar la grabación del tráfico HTTP "HTTP Test Script Recorder", antes era conocido como "HTTP Proxy server", este elemento permite la captura y el redireccionamiento de las peticiones HTTP o HTTPS como un servidor Proxy  desde el controlador de grabación como al servidor destino, tal como lo podemos ver en este [**`EJEMPLO 3: Pasos para grabación de tráfico HTTPS`**](./Ejemplo-03).
+JMeter cuenta con un elemento para realizar la grabación del tráfico HTTP "HTTP Test Script Recorder", antes era conocido como "HTTP Proxy server", este elemento permite la captura y el redireccionamiento de las peticiones HTTP o HTTPS como un servidor Proxy  desde el controlador de grabación como al servidor destino.
 
 ---
   
@@ -83,7 +83,7 @@ JMeter cuenta con un elemento para realizar la grabación del tráfico HTTP "HTT
 
 Otra forma que podemos realizar grabaciones en JMeter para nuestras pruebas de rendimiento es el uso de herramientas externas que se pueden integrar a JMeter, es decir, por un lado grabo las acciones en la web de prueba, integro con JMeter, y por otro lado, dentro del mismo JMeter realizo las configuraciones respectivas de mis escenarios de prueba para que desde allí las pueda ejecutar y analizar sus resultados.
   
-- [**`EJEMPLO 4 - Herramientas propias de grabación`**](./Ejemplo-04)
+- [**`EJEMPLO 3 - Herramientas propias de grabación`**](./Ejemplo-03)
   
 Te invitamos a que iniciemos el reto de esta sesión.
   
