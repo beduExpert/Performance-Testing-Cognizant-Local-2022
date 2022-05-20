@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Generar un proyecto en JMeter utilizando archivo CSV como parámetro de entrada de datos.
+Generen un proyecto en JMeter utilizando archivo CSV como parámetro de entrada de datos.
 
 ## Desarrollo
 
