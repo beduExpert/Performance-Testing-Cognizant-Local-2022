@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Presenten resultados y métricas de una prueba de estrés en JMeter.
+Presenten resultados y métricas de una prueba de estrés en JMeter.
 
 >**¡Nota para experto(a)!**
 >
