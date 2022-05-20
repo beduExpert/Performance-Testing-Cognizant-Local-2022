@@ -1,4 +1,4 @@
-# Ejemplo 4: Herramientas propias de grabación
+# Ejemplo 3: Herramientas propias de grabación
 
 ## Objetivo
 
