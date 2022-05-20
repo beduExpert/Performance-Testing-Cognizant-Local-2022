@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Grabación, parametrización de datos y ejecución de prueba de carga a un aplicativo web presentando sus resultados.
+Realicen pruebas de carga desde la grabación, parametrización de datos y ejecución de prueba a un aplicativo web presentando sus resultados.
 
 ## Desarrollo
 
