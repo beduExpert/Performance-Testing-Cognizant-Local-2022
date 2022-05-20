@@ -4,6 +4,11 @@
 
 Generen un proyecto en JMeter utilizando archivo CSV como parámetro de entrada de datos.
 
+>**¡Nota para experto(a)!**
+>
+> A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
+
+
 ## Desarrollo
 
 El reto en esta sesión consiste en generar una prueba de carga a cualquier aplicativo web, grabando un escenario de prueba y enviando los datos desde un archivo CSV.
