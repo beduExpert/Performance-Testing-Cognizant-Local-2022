@@ -2,7 +2,12 @@
 
 ## Objetivo
 
-Presentar tablas y gráficas de un reporte HTML creado desde JMeter al generar una prueba de carga.
+Presenten tablas y gráficas de un reporte HTML creado desde JMeter al generar una prueba de carga.
+
+>**¡Nota para experto(a)!**
+>
+> A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
+
 
 ## Desarrollo
 
