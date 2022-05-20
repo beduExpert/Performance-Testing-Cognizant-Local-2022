@@ -4,6 +4,11 @@
 
 Realicen pruebas de estabilidad desde la grabación, parametrización de datos y ejecución de prueba a un aplicativo web presentando sus resultados.
 
+>**¡Nota para experto(a)!**
+>
+> A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
+
+
 ## Desarrollo
 
 El reto en esta sesión consiste en generar una prueba de estabilidad a cualquier aplicativo web, recuerda que no debes utilizar páginas como Facebook, Twitter, entre otras; pues se pueden generar alertas de seguridad por envíos de altos usuarios.
