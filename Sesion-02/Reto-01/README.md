@@ -4,6 +4,10 @@
 
 Grabar un escenario de prueba con una de las herramientas externas creando las solicitudes a la aplicación web desde dicha herramienta para ejecutar las pruebas de rendimiento a partir de los script grabados desde JMeter.
 
+>**¡Nota para experto(a)!**
+>
+> A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
+
 
 ## Desarrollo
 
