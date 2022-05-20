@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Grabar un escenario de prueba con una de las herramientas externas creando las solicitudes a la aplicación web desde dicha herramienta para ejecutar las pruebas de rendimiento a partir de los script grabados desde JMeter.
+Graben un escenario de prueba con una de las herramientas externas creando las solicitudes a la aplicación web desde dicha herramienta para ejecutar las pruebas de rendimiento a partir de los script grabados desde JMeter.
 
 >**¡Nota para experto(a)!**
 >
