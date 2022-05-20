@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Ejecutar un plan de pruebas de performance en JMeter grabando diferentes acciones en un navegador web y presentar sus resultados.
+Ejecuten un plan de pruebas de performance en JMeter grabando diferentes acciones en un navegador web y presentar sus resultados.
 
 >**¡Nota para experto(a)!**
 >
