@@ -1,35 +1,41 @@
-# Ejemplo 3: Pasos para grabación de tráfico HTTPS
+# Ejemplo 4: Herramientas propias de grabación
 
 ## Objetivo
 
-Mostrar la configuración en JMeter a nivel de tráfico HTTPS teniendo en cuenta la configuración del Proxy SSL.
+* Grabar escenarios de prueba como scripts a partir de herramientas externas.
+* Crear las solicitudes (acciones) del navegador a la aplicación web.
+* Aplicar las pruebas de rendimiento a partir de los script grabados.
 
 ## Desarrollo
 
-Si su aplicación web utiliza el cifrado SSL, necesita capturar el tráfico HTTPS en lugar de HTTP.
-Para registrar el tráfico HTTPS con JMeter, debe configurar los certificados SSL.
+**Grabación de secuencias de comandos con la extensión de Chrome BlazeMeter**
 
-**Configure su proxy SSL**
+Hasta ahora hemos cubierto las formas básicas de registrar escenarios de prueba. Pero una de las maneras más rápidas y fáciles de grabar sus scripts de rendimiento, que también es gratis, es usar la extensión Chrome de BlazeMeter Recorder. Estas grabaciones se pueden ejecutar en JMeter o en BlazeMeter.
 
-1. Asegúrese de que el proxy SSL esté configurado de la misma manera que el proxy HTTP:
+La razón por la que la extensión es tan útil es que le permite grabar scripts de rendimiento desde su navegador sin tener que configurar su proxy.
 
-<img width="403" alt="1 proxy" src="https://user-images.githubusercontent.com/22419786/155261737-6b2613cf-cf37-4e47-8909-9e5efbeed6ff.png">
+<img width="239" alt="1  blazemeter grab" src="https://user-images.githubusercontent.com/22419786/155262087-5076c731-2116-46a1-a772-d03e04c6fea6.png">
 
-**Configurar JMeter**
+Para crear una nueva secuencia de comandos de rendimiento:
+1. Abre la grabadora desde tu Chrome.
+2. Ingrese un nombre de prueba en el campo superior.
+3. Comience a grabar haciendo clic en el botón de grabación, en forma de círculo, y realice las acciones web que desea grabar. Todas sus peticiones serán capturadas. BlazeMeter Chrome Extension también admite la grabación de tráfico HTTPS.
+4. Después de terminar de grabar, haga clic en el botón de detener, en forma de un cuadrado. También puede pausar su grabación y luego reanudarla, así como editarla, en formato .jmx o JSON, o en la nube.
+5. Exporte su grabación: para ejecutar la prueba en JMeter, exporte al formato .jmx haciendo clic en el botón .jmx. Para ejecutar la prueba en BlazeMeter, haga clic en 'ejecutar'.
 
-2. Inicie la grabación del script utilizando la función "Plantilla de grabación JMeter" como se explica en el ejemplo "Grabación de script con la función de plantilla JMeter".
-3. Después de abrir la aplicación web, verá un mensaje sobre una conexión no segura. Para continuar, solo necesita aceptar el certificado ficticio de JMeter:
+**Grabación de guiones con BadBoy**
 
-* Haga clic en 'Avanzado'
-* Haga clic en 'Agregar excepción ...'
-* Desmarque 'Almacenar permanentemente esta excepción'
-* Haga clic en 'Confirmar excepción de seguridad'
+Otra herramienta de grabación útil de terceros es BadBoy. Sin embargo, funciona solo para el sistema operativo Windows. Para crear una nueva secuencia de comandos de rendimiento:
 
-<img width="444" alt="2 excepcion" src="https://user-images.githubusercontent.com/22419786/155261817-a9fcaa4a-5328-4237-adbe-0e83dcf782c5.png">
+1. Instala BadBoy de su sitio oficial http://www.badboy.com.au
 
-<img width="446" alt="3 location" src="https://user-images.githubusercontent.com/22419786/155261842-8c677321-6ef9-4ad1-bbd5-7b9e9ed5bce7.png">
+Consejo: habrá una verificación de correo electrónico del usuario cuando se descargue desde el sitio web oficial, simplemente continúe saltando y simplemente descargue.
 
-4. Si ve el mensaje “Este sitio proporciona una identificación válida y verificada. No es necesario agregar una excepción ". Mensaje de advertencia: debe borrar el historial del
-navegador de su aplicación, incluidas las cookies, el caché y los datos de sitios web sin conexión. Luego, proceda de nuevo con los mismos pasos.
+Instalación: es lo mismo que el programa de instalación normal de Windows, simplemente no se preocupe por el siguiente paso; una vez completada la instalación, normalmente habrá accesos directos de badboy en el escritorio y en el menú de inicio. De lo contrario, busque el archivo badboy.exe en el directorio de instalación de badboy y haga doble clic para iniciar.
 
-Este enfoque también funciona para la grabación de scripts móviles, ya que el certificado JMeter debe instalarse solo en el host que se está utilizando para ejecutar JMeter.
+2. Inicio: después de iniciar badboy, la interfaz es la siguiente.
+
+<img width="609" alt="2  badboy" src="https://user-images.githubusercontent.com/22419786/155262267-80985e33-4a95-4c50-9a79-4f7948ffd010.png">
+
+3. Presione el botón de grabación, con forma de círculo rojo y realice las acciones que desea capturar.
+4. Exporte su script a JMeter - Archivo -> Exportar a JMeter.
