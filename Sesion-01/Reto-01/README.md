@@ -8,7 +8,6 @@ Ejecutar un plan de pruebas de performance en JMeter grabando diferentes accione
 >
 > A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
 
-> Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
 
 
 ## Desarrollo
