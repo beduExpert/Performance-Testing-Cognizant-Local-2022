@@ -4,6 +4,13 @@
 
 Ejecutar un plan de pruebas de performance en JMeter grabando diferentes acciones en un navegador web y presentar sus resultados.
 
+>**¡Nota para experto(a)!**
+>
+> A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
+
+> Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
+
+
 ## Desarrollo
 
 El reto en esta sesión consiste en crear un plan de pruebas en JMeter partiendo de que ya se haya hecho la instalación de la herramienta junto con sus requisitos previos de acuerdo con lo explicado en el tema 3 de esta sesión. 
